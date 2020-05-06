@@ -125,11 +125,10 @@ body {
   color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  font-size: 1.25em;
   line-height: 1.5em;
   border-radius: 10px;
-  padding: 0px 30px;
-  width: 400px;
+  padding: 0px 30px 20px 30px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -137,12 +136,19 @@ body {
   overflow: auto;
 }
 
+
+}
+#content p {
+  font-size: 3em;
+  margin-bottom: 0;
+}
 #content p span {
   font-family: 'Lora', sans-serif;
+
 }
 
 #content h1 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-bottom: 0;
 }
 
@@ -150,6 +156,29 @@ body {
   color: #b30f57;
 }
 
+#info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+
+}
+
+.col-1, .col-2, .col-3 {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+
+}
+.col-1 p, .col-2 p, .col-3 p {
+  border-right: 0.5px solid white;
+  padding: 5px;
+  }
 
 
 
